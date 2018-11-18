@@ -13,7 +13,8 @@ Ext.define('ExtMVC.Application', {
         'Orgs',
         'Fiscalyears',
         'Appsettings',
-        'Sourcecodes'
+        'Sourcecodes',
+        'Staffs'
         
         // TODO: add global / shared stores here
     ],

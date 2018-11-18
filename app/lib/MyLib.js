@@ -43,7 +43,7 @@ Ext.define('ExtMVC.lib.MyLib', {
     },
     adjustGrid:function(view){
         view.height = window.screen.availHeight-200;
-        view.down('grid').height = view.height-120;
+        view.down('grid').height = view.height-150;
     },
     adjustReceipt:function(view){
         view.height = window.screen.availHeight-200;

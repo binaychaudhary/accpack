@@ -1,14 +1,14 @@
 <?php
 	//chama o arquivo de conexão com o bd
 	include("../../includes/conectar.php");
+	$org_id = $_REQUEST['org_id'];
 	$setting_name = $_REQUEST['setting_name'];
-	if(is_null($setting_name)){
-		$queryString = "SELECT * from app_setting order by id";	
-	}else{
-		$queryString = "SELECT * from app_setting where setting_name  like '".$setting_name."%' order by id";	
-	}
-	
 
+	$cr =" where org_id='".$org_id."'";
+	if(!is_null($setting_name)){
+		$cr = $cr. " and setting_name like '".$setting_name."%'";
+	}
+	$queryString="select * from app_setting".$cr." order by id";
 	//consulta sql
 	$query = $conn->query($queryString) or die(mysqli_connect_error());
 

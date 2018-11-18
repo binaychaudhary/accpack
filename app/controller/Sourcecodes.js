@@ -70,14 +70,14 @@ Ext.define('ExtMVC.controller.Sourcecodes', {
                 handler :function   () {
                     Ext.Msg.show({
                         title : Ext.lang.global.appname,
-                        msg : Ext.lang.msg.deleteRecord,
+                        msg : Ext.lang.msg.deleteRecord[Ext.lang.global.langId],
                         width : 300,
                         closable : false,
                         buttons : Ext.Msg.YESNO,
                         buttonText : 
                         {
-                            yes : Ext.lang.global.yes,
-                            no : Ext.lang.global.no
+                            yes : Ext.lang.global.yes[Ext.lang.global.langId],
+                            no : Ext.lang.global.no[Ext.lang.global.langId]
                         },
                         multiline : false,
                         fn : function(buttonValue, inputText, showConfig){
@@ -90,7 +90,7 @@ Ext.define('ExtMVC.controller.Sourcecodes', {
                                 
                                 store.remove(record);
                                 grid.store.sync();
-                                l.showMessage('1 Record Deleted sucessfully.', Ext.Msg.INFO);
+                                l.showMessage(Ext.lang.global.recordDeleted[Ext.lang.global.langId], Ext.Msg.INFO);
                             }
                         },
                         icon : Ext.Msg.QUESTION

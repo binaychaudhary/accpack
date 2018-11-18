@@ -16,6 +16,10 @@ Ext.define('ExtMVC.view.app_setting.app_settinggrd' ,{
     		align:'stretch'
     	},
     	items:[{
+            xtype:'textfield',
+            itemId:'org_id',
+            hidden:true
+        },{
     		xtype:'textfield',
     		fieldLabel:'Setting Name',
     		itemId:'setting_name',
@@ -55,6 +59,16 @@ Ext.define('ExtMVC.view.app_setting.app_settinggrd' ,{
     	height:250,
     	store:'Appsettings',
     	columns:[{
+            header:'SN',
+            dataIndex: 'rowIndex',
+            sortable : false,
+            // other config you need..
+            renderer : function(value, metaData, record, rowIndex)
+            {
+                return rowIndex+1;
+            },
+            flex:.4
+        },{
     		header:'Setting Name',
     		dataIndex:'setting_name',
     		flex:5

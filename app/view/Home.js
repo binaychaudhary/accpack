@@ -272,6 +272,7 @@ Ext.define('ExtMVC.view.Home', {
                                 listeners: {
                                      click: function() {
                                         var pnl = new ExtMVC.view.app_setting.app_settinggrd({modal:true, closable:true});
+                                        pnl.down('form').query('#org_id')[0].setValue( Ext.state.Manager.get("gOrgId"));
                                         var l = new MyLib();
                                         l.openTab(pnl);
                                         pnl.down('toolbar').items.items[0].focus(false,200);

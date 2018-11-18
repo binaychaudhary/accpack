@@ -24,6 +24,11 @@ Ext.define('ExtMVC.view.app_setting.appsettingform', {
             fieldLabel:'Id',
             hidden:true
         },{
+            xtype:'textfield',
+            itemId:'org_id',
+            name:'org_id',
+            // hidden:true
+        },{
             xtype: 'textfield',
             itemId:'setting_name',
             name:'setting_name',

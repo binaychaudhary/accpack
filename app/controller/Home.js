@@ -119,7 +119,7 @@ Ext.define('ExtMVC.controller.Home', {
                         var log_utility=Ext.ComponentQuery.query('#log_utility')[0];
                         log_utility.setVisible(true);
                         var user_name = Ext.ComponentQuery.query('#lblUserName')[0];
-                        user_name.setText(Ext.lang.global.welcome+' '+ userName);
+                        user_name.setText(Ext.lang.global.welcome[Ext.lang.global.langId]+' '+ userName);
                         
     
                         var lib = new MyLib;
@@ -163,15 +163,15 @@ Ext.define('ExtMVC.controller.Home', {
 
                     }else if(status==0){
                         process=false;
-                        lib.showMessage(Ext.lang.global.accountInactive, Ext.Msg.CRITICAL);
+                        lib.showMessage(Ext.lang.global.accountInactive[Ext.lang.global.langId], Ext.Msg.CRITICAL);
                     }else if(status=-1){
                         process=false;
-                        lib.showMessage( Ext.lang.global.accountBlocked, Ext.Msg.CRITICAL);
+                        lib.showMessage( Ext.lang.global.accountBlocked[Ext.lang.global.langId], Ext.Msg.CRITICAL);
                     }    
                 }else{
                     process=false;
                     var lib = new MyLib;
-                    lib.showMessage(Ext.lang.global.incorectUserOrPass, Ext.Msg.CRITICAL);
+                    lib.showMessage(Ext.lang.global.incorectUserOrPass[Ext.lang.global.langId], Ext.Msg.CRITICAL);
                 }              
             },
             failure: function(response){
@@ -235,11 +235,11 @@ Ext.define('ExtMVC.controller.Home', {
     onlogOut: function() {
         Ext.Msg.show({    
             title: Ext.lang.global.appname,
-            msg: Ext.lang.msg.doLogout,
+            msg: Ext.lang.msg.doLogout[Ext.lang.global.langId],
             closable : true,
             buttonText: {
-                yes: Ext.lang.global.yes,
-                no: Ext.lang.global.no
+                yes: Ext.lang.global.yes[Ext.lang.global.langId],
+                no: Ext.lang.global.no[Ext.lang.global.langId]
             },
             icon: Ext.Msg.QUESTION,
                 fn: function(btn) {        
@@ -280,7 +280,7 @@ Ext.define('ExtMVC.controller.Home', {
         currTranDateAd =dt;
         currTranDateBs = dtHp.ConvertAdToBs(Ext.Date.parse(currTranDateAd,"Y-m-d"));
         
-        currDate.setText(Ext.lang.global.dt+": "+currTranDateBs);
+        currDate.setText(Ext.lang.global.dt[Ext.lang.global.langId]+": "+currTranDateBs);
         Ext.state.Manager.set("currTranDateAd",currTranDateAd);
         Ext.state.Manager.set("currTranDateBs",currTranDateBs);
 
@@ -301,7 +301,7 @@ Ext.define('ExtMVC.controller.Home', {
                 Ext.state.Manager.set("fyearEndDtBs",resData.fiscalyear[0].end_date_bs);
                 Ext.state.Manager.set("fyearStartDtAd",resData.fiscalyear[0].start_date_ad);
                 Ext.state.Manager.set("fyearEndDtAd",resData.fiscalyear[0].end_date_ad);
-                currFiscalYear.setText(Ext.lang.global.fy+" :"+resData.fiscalyear[0].fiscalyear);
+                currFiscalYear.setText(Ext.lang.global.fy[Ext.lang.global.langId]+" :"+resData.fiscalyear[0].fiscalyear);
             }
         });
         
@@ -326,6 +326,7 @@ Ext.define('ExtMVC.controller.Home', {
                 
                 //setting orginfo in session
                 // Ext.state.Manager.setProvider(new Ext.state.CookieProvider());
+                Ext.state.Manager.set("gOrgId",gData.orgs[0].id);
                 Ext.state.Manager.set("gOrgTitle",gData.orgs[0].title);
                 Ext.state.Manager.set("gOrgName",gData.orgs[0].orgName);
                 Ext.state.Manager.set("gOrgAddress",gData.orgs[0].address);
@@ -336,10 +337,10 @@ Ext.define('ExtMVC.controller.Home', {
                 var organization = Ext.ComponentQuery.query('#organization')[0];
                 organization.query('#regdTitle')[0].setText(gData.orgs[0].title);
                 organization.query('#regdOrgName')[0].setText(gData.orgs[0].orgName);
-                organization.query('#regdOrgAddress')[0].setText(Ext.lang.global.address+': '+gData.orgs[0].address);
-                organization.query('#regdTelephoneNo')[0].setText(Ext.lang.global.contactNo+': '+gData.orgs[0].telephoneNo);
-                organization.query('#regdEmail')[0].setText(Ext.lang.global.email+': '+gData.orgs[0].email);
-                organization.query('#regdNo')[0].setText(Ext.lang.mainmenu.master.org.regdNo+': '+gData.orgs[0].regdNo);
+                organization.query('#regdOrgAddress')[0].setText(Ext.lang.global.address[Ext.lang.global.langId]+': '+gData.orgs[0].address);
+                organization.query('#regdTelephoneNo')[0].setText(Ext.lang.global.contactNo[Ext.lang.global.langId]+': '+gData.orgs[0].telephoneNo);
+                organization.query('#regdEmail')[0].setText(Ext.lang.global.email[Ext.lang.global.langId]+': '+gData.orgs[0].email);
+                organization.query('#regdNo')[0].setText(Ext.lang.mainmenu.master.org.regdNo[Ext.lang.global.langId]+': '+gData.orgs[0].regdNo);
 
 
                //loading voucher data

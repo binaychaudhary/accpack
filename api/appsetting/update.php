@@ -6,6 +6,7 @@
 
 	$data = json_decode($info);
 	$id = $data->id;
+	$org_id = $data->org_id;
 	$setting_name=$data->setting_name;
 	$value_txt=$data->value_txt;
 	
