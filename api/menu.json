@@ -1,0 +1,281 @@
+{
+	"items": 
+	[{
+		"title":Ext.lang.global.masterSetup,
+		"iconCls": "icon-master-setup",
+		"id": "1",
+		"items": [
+		{
+			"text":Ext.lang.mainmenu.master.org.menuTitle,
+			"iconCls": "icon-organization",
+			"menu_id": "1",
+			"id": "11"
+		},
+		{
+			"text": "App. Settings",
+			"iconCls": "icon-segment",
+			"menu_id": "1",
+			"id": "12"
+		},
+		{
+			"text": Ext.lang.mainmenu.master.fiscalyear.menuTitle,
+			"iconCls": "icon-fy",
+			"menu_id": "1",
+			"id": "13"
+		},
+		{
+			"text": Ext.lang.mainmenu.master.sourcecode.sourcecode,
+			"iconCls": "icon-source-code",
+			"menu_id": "1",
+			"id": "14"
+		},
+		{
+			"text": Ext.lang.mainmenu.master.employee.emp,
+			"iconCls": "icon-source-code",
+			"menu_id": "1",
+			"id": "15"
+		}
+		]
+	},
+	{
+		"title": Ext.lang.global.acSetup,
+		"iconCls": "icon-account-structure",
+		"id": "2",
+		"items": [
+		{
+			"text": Ext.lang.mainmenu.master.group.menuTitle+' '+Ext.lang.global.setup,
+			"iconCls": "icon-account-group",
+			"menu_id": "2",
+			"id": "21"
+		},
+		{
+			"text":  Ext.lang.global.acSetup,
+			"iconCls": "icon-account-structure",
+			"menu_id": "2",
+			"id": "22"
+		}			
+		]
+	},
+	{
+		"title": Ext.lang.global.voucherEntry,
+		"iconCls": "icon-transaction",
+		"id": "3",
+		"items": [
+		{
+			"text": Ext.lang.mainmenu.transaction.journal.menuTitle,
+			"iconCls": "icon-journal",
+			"menu_id": "3",
+			"id": "31"
+		},
+		{
+			"text": Ext.lang.mainmenu.transaction.receipt.menuTitle,
+			"iconCls": "icon-journal",
+			"menu_id": "3",
+			"id": "32"
+		},
+		{
+			"text": Ext.lang.mainmenu.transaction.payment.menuTitle,
+			"iconCls": "icon-payment",
+			"menu_id": "3",
+			"id": "33"
+		}
+		]
+	},
+	{
+		"title": Ext.lang.global.account + ' '+ Ext.lang.global.reports,
+		"iconCls": "icon-report",
+		"id": "4",
+		"items": [
+		{
+			"text": Ext.lang.mainmenu.reports.trialBalance.menuTitle,
+			"iconCls": "icon-trial",
+			"menu_id": "4",
+			"id": "41"
+		},
+		{
+			"text": Ext.lang.global.account + ' '+ Ext.lang.ledger.menuTitle,
+			"iconCls": "icon-ledger",
+			"menu_id": "4",
+			"id": "42"
+		},
+		{
+			"text": Ext.lang.mainmenu.reports.balancesheet.menuTitle,
+			"iconCls": "icon-balancesheet",
+			"menu_id": "4",
+			"id": "43"
+		},
+		{
+			"text": Ext.lang.mainmenu.reports.pl.menuTitle,
+			"iconCls": "icon-profitandloss",
+			"menu_id": "4",
+			"id": "44"
+		}			
+		]
+	},
+	{
+		"title": Ext.lang.global.inventorySetup,
+		"iconCls": "icon-inventory-setup",
+		"id": "5",
+		"items": [
+		{
+			"text": Ext.lang.mainmenu.master.unit.menuTitle,
+			"iconCls": "icon-unit",
+			"menu_id": "5",
+			"id": "51"
+		},{
+			"text": Ext.lang.mainmenu.master.invgroup.menuTitle,
+			"iconCls": "icon-inventory-group",
+			"menu_id": "5",
+			"id": "52"
+		},{
+			"text": Ext.lang.mainmenu.master.item.menuTitle,
+			"iconCls": "icon-inventory-item",
+			"menu_id": "5",
+			"id": "53"
+		},{
+			"text": 'Location Setup',
+			"iconCls": "icon-inventory-item",
+			"menu_id": "5",
+			"id": "54"
+		},{
+			"text": 'Product Rate Setup',
+			"iconCls": "icon-inventory-item",
+			"menu_id": "5",
+			"id": "55"
+		}
+		]
+	},
+	{
+		"title": Ext.lang.global.Inventory+ ' '+Ext.lang.global.entry,
+		"iconCls": "icon-inventory-transaction",
+		"id": "6",
+		"items": [{
+			"text":Ext.lang.mainmenu.transaction.sales.menuTitle,
+			"iconCls": "icon-sales",
+			"menu_id": "6",
+			"id": "61"
+		},{
+			"text":Ext.lang.mainmenu.transaction.wholesales.menuTitle,
+			"iconCls": "icon-sales",
+			"menu_id": "6",
+			"id": "62"
+		},{
+			"text":Ext.lang.mainmenu.transaction.purchase.menuTitle,
+			"iconCls": "icon-purchase",
+			"menu_id": "6",
+			"id": "63"
+		},{
+			"text":Ext.lang.mainmenu.transaction.purchasereturn.menuTitle,
+			"iconCls": "icon-purchase",
+			"menu_id": "6",
+			"id": "64"
+		},{
+			"text":Ext.lang.mainmenu.transaction.salesreturn.menuTitle,
+			"iconCls": "icon-sales",
+			"menu_id": "6",
+			"id": "65"
+		},{
+			"text":Ext.lang.mainmenu.transaction.production.menuTitle,
+			"iconCls": "icon-production",
+			"menu_id": "6",
+			"id": "66"
+		},{
+			"text":Ext.lang.mainmenu.transaction.voucherlist.menuTitle,
+			"iconCls": "icon-inventory-transaction",
+			"menu_id": "6",
+			"id": "67"
+		},{
+			"text": 'KOT',
+			"iconCls": "icon-purchase",
+			"menu_id": "6",
+			"id": "68"
+		}]
+ 	},
+	{
+		"title": Ext.lang.global.Inventory+' '+Ext.lang.global.reports,
+		"iconCls": "icon-inventory-report",
+		"id": "7",
+		"items": [{
+			"text":Ext.lang.mainmenu.reports.stocksummary.menuTitle,
+			"iconCls": "icon-purchase",
+			"menu_id": "7",
+			"id": "71"
+		},{
+			"text":Ext.lang.mainmenu.reports.stockledger.menuTitle,
+			"iconCls": "icon-stockledger",
+			"menu_id": "7",
+			"id": "72"
+		},{
+			"text":Ext.lang.mainmenu.reports.salesbook.menuTitle,
+			"iconCls": "icon-stockledger",
+			"menu_id": "7",
+			"id": "73"
+		},{
+			"text":Ext.lang.mainmenu.reports.purchasebook.menuTitle,
+			"iconCls": "icon-stockledger",
+			"menu_id": "7",
+			"id": "74"
+		},{
+			"text":Ext.lang.mainmenu.reports.cashcollection.menuTitle,
+			"iconCls": "icon-stockledger",
+			"menu_id": "7",
+			"id": "75"
+		}]
+	},
+	{
+		"title": Ext.lang.mainmenu.rback.menuTitle,
+		"iconCls": "icon-rback",
+		"id": "8",
+		"items": [{
+			"text":Ext.lang.global.role,
+			"iconCls": "icon-role",
+			"menu_id": "8",
+			"id": "81"
+		},{
+			"text":Ext.lang.login.user,
+			"iconCls": "icon-role",
+			"menu_id": "8",
+			"id": "82"
+		},{
+			"text":Ext.lang.global.changePass,
+			"iconCls": "icon-role",
+			"menu_id": "8",
+			"id": "83"
+		},{
+			"text":Ext.lang.mainmenu.menumanager.menuTitle,
+			"iconCls": "icon-menu",
+			"menu_id": "8",
+			"id": "84"
+		}]
+	},
+	{
+		"title": 'Hotel',
+		"iconCls": "icon-rback",
+		"id": "9",
+		"items": [{
+			"text":'Room Setup',
+			"iconCls": "icon-role",
+			"menu_id": "9",
+			"id": "91"
+		},
+		{
+			"text":'Bed Setup',
+			"iconCls": "icon-role",
+			"menu_id": "9",
+			"id": "92"
+		},
+		{
+			"text":'Room ',
+			"iconCls": "icon-role",
+			"menu_id": "9",
+			"id": "93"
+		},
+		{
+			"text":'Room Rate',
+			"iconCls": "icon-role",
+			"menu_id": "9",
+			"id": "94"
+		}
+	]
+	}]
+}

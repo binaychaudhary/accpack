@@ -1,0 +1,1748 @@
+﻿.page {
+page-break-after:always;
+position: relative;
+}
+.icon-loader{
+    background-image: url(../images/ajax-loader.gif); 
+    background-repeat: no-repeat;
+    height: 100
+}
+.textbox{
+      border-bottom-style:ridge;
+      border-bottom-left-radius:5;
+      border-bottom-right-radius:5;
+      border-top-left-radius:5;
+      border-top-right-radius:5;
+      box-shadow:#9C9;
+      box-sizing:border-box;
+      font-family:"Kalimati";
+      font-size:16px;
+ }
+.btn-background{
+    background-color: #fff;
+}
+ .big-button-master{
+    width:60px; 
+    height:60px; 
+    border: 0;
+    background-size: 100%; 
+    background-image: url(../images/master.png) !important;  
+}
+ .big-button-customer{
+    width:60px; 
+    height:60px; 
+    border: 0;
+    background-size: 100%; 
+    background-image: url(../images/customer.png) !important;  
+}
+ .big-button-accounts{
+    width:60px; 
+    height:60px; 
+    border: 0;
+    background-size: 100%; 
+    background-image: url(../images/accounts.jpg) !important;  
+}
+ .big-button-cash-deposit{
+    width:60px; 
+    height:60px; 
+    border: 0;
+    background-size: 100%; 
+    background-image: url(../images/cash-deposit.jpg) !important;  
+}
+ .big-button-cash-withdrawal{
+    width:60px; 
+    height:60px; 
+    border: 0;
+    background-size: 100%; 
+    background-image: url(../images/cash-withdrawal.jpg) !important;  
+}
+ .big-button-user{
+    width:60px; 
+    height:60px; 
+    border: 0;
+    background-size: 100%; 
+    background-image: url(../images/login.jpg) !important;  
+}
+ .big-button-vouchers{
+    width:60px; 
+    height:60px; 
+    border: 0;
+    background-size: 100%; 
+    background-image: url(../images/voucher.jpg) !important;  
+}
+ .big-button-collection-sheet{
+    width:60px; 
+    height:60px; 
+    border: 0;
+    background-size: 100%; 
+    background-image: url(../images/collection-sheet.jpg) !important;  
+}
+ .big-button-interest-rate{
+    width:60px; 
+    height:60px; 
+    border: 0;
+    background-size: 100%; 
+    background-image: url(../images/interest-rate.jpg) !important;  
+}
+.big-button-ledger{
+    width:60px; 
+    height:60px; 
+    border: 0;
+    background-size: 100%; 
+    background-image: url(../images/statement.jpg) !important;  
+}
+.big-button-trial{
+    width:60px; 
+    height:60px; 
+    border: 0;
+    background-size: 100%; 
+    background-image: url(../images/trialbalance.jpg) !important;  
+}
+.big-button-daybook{
+    width:60px; 
+    height:60px; 
+    border: 0;
+    background-size: 100%; 
+    background-image: url(../images/daybook.jpg) !important;  
+}
+.big-button-balancesheet{
+    width:60px; 
+    height:60px; 
+    border: 0;
+    background-size: 100%; 
+    background-image: url(../images/balance-sheet.png) !important;  
+}
+.big-button-pl{
+    width:60px; 
+    height:60px; 
+    border: 0;
+    background-size: 100%; 
+    background-image: url(../images/profitloss.jpg) !important;  
+}
+.big-button-comm{
+    width:60px; 
+    height:60px; 
+    border: 0;
+    background-size: 100%; 
+    background-image: url(../images/marketing-commission.jpg) !important;  
+}
+.big-button-account-details{
+    width:60px; 
+    height:60px; 
+    border: 0;
+    background-size: 100%; 
+    background-image: url(../images/customer_details.jpg) !important;  
+}
+ .redcell{
+    background-color: red;
+ }
+ .whitecell{
+    background-color: #fff;
+ }
+ .divshadow
+{
+
+  box-shadow: 0px 0px 12px 5px rgba(0, 0, 0, .5);
+  moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 1);
+  webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 1);  
+}
+.divBack{
+    
+    font-weight:bold;  background:#ddeafc; color:#244464;
+    background-image:-moz-linear-gradient(top,#c3d5f1,#f8fafd);
+    background-image:-webkit-gradient(linear,left top,left bottom,from(#66FF99),to(#CCFFCC));
+    filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr=#c3d5f1,endColorStr=#f8fafd);
+    border-top-left-radius:2;
+    border-top-right-radius:2;
+    height:25px;
+    border:1px solid #99FF66;
+    color:#110B59; 
+    padding-top:7;
+  }
+.threed {
+   color: #CCCCCC;
+   text-shadow: 0 1px 0 #999999, 0 2px 0 #888888,
+           0 3px 0 #777777, 0 4px 0 #666666,
+           /*0 5px 0 #555555, 0 6px 0 #444444,*/
+           0 7px 0 #333333, 0 8px 7px rgba(0, 0, 0, 0.4),
+           0 9px 10px rgba(0, 0, 0, 0.2);
+}
+
+.inset{
+  color: #444444;
+   text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;
+   text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.outline {
+   color: #FFFFFF;
+   text-shadow: 1px 1px 0 #000000, -1px 1px 0 #000000,
+           1px -1px 0 #000000, -1px -1px 0 #000000;
+}
+.castellar {
+   color: #FFFFFF;
+   text-shadow: -1px 0 0 #000000, 1px 1px 0 #000000,
+           2px -1px 0 #000000, 3px 0 0 #000000;
+}
+.bck{
+  height: 100%;
+  vertical-align:top;
+  background-color:#F5F5F5;
+  }
+.webpayText{
+    font-size:18; 
+    /*padding-left:250; */
+      /*padding-top:50; */
+    color:red;
+    /*padding-right:5;*/
+}
+
+
+toobar{
+    padding:5;
+}
+.smsText{
+    font-size:40; 
+    /*padding-top:40; */
+    color:#fff;
+    font-weight: bolder;
+}
+.homepage-btn{
+    margin:4;
+    padding:5;
+    align: center;
+    opacity:9; 
+     font-size: 26px;
+}
+.homepage-btn hover{
+    margin:4;
+    padding:5;
+    align: center;
+    opacity:5; 
+    border:2px;
+    font-size: 26px;
+}
+.menuLabel{
+    text-align: center;
+    margin:10;
+    color:#000;
+
+}
+.corner-border{
+    margin-top:10;
+    margin-bottom:10;
+    margin-left:15;
+    margin-right:15;
+    border: 1px solid blue; 
+    border-style: dashed; 
+    border-radius: 10px; 
+    webkit-border-radius: 10px; 
+    -moz-border-radius: 10px;
+}
+.your-css{
+    /*opacity:0.3; */
+    /*background-color: #fff;*/
+    background-image: url(../images/pattern.png); 
+    width:'100%';
+    /*background-color:blue;*/
+}
+.footer-css{
+    background-image: url(../images/pattern.png); 
+    opacity:0.8; 
+}
+.transparent{
+    
+    /*background-image: url(../images/pattern.png);*/
+    /*background-color:blue;*/
+}
+
+html{
+    background-image: url(../images/pattern.png);
+}
+.myTable {
+    font-family: 'Kalimati';
+    font-family: 14px;
+
+    border:1px solid;
+    border-collapse: collapse;
+    border-color:black;
+}
+.myTable th{
+    border:1px solid;
+}
+.icon-submit {
+    background-image: url(../images/thumb.jpg) !important;  
+}
+.icon-master-setup {
+    background-image: url(../images/setup.jpg) !important;  
+}
+.icon-customer-serevice {
+    background-image: url(../images/customer_service.jpg) !important;  
+}
+.icon-transaction {
+    background-image: url(../images/transaction.jpg) !important;  
+}
+.icon-report {
+    background-image: url(../images/Report.jpg) !important;  
+}
+.icon-inventory-setup {
+    background-image: url(../images/InventorySetup.jpg) !important;  
+}
+.icon-inventory-transaction {
+    background-image: url(../images/inventorytransaction.jpg) !important;  
+}
+.icon-inventory-report {
+    background-image: url(../images/InventoryReport.jpg) !important;  
+}
+.icon-rback {
+    background-image: url(../images/rback.png) !important;  
+}
+.icon-remove {
+    background-image: url(../images/remove.png) !important;  
+}
+.icon-user {
+    background-image: url(../images/user.png) !important;  
+}
+
+.icon-login {
+    background-image: url(../images/login.png) !important;  
+}
+.icon-password {
+    background-image: url(../images/password.jpg) !important;  
+}
+
+.icon-user-add {
+    background-image: url(../images/user_add.gif) !important;
+    background-repeat: no-repeat;
+}
+
+.icon-save {
+    background-image: url(../images/save.gif) !important;
+    background-repeat: no-repeat;
+}
+.icon-close {
+    background-image: url(../images/stop.png) !important;
+    background-repeat: no-repeat;
+}
+.icon-cancel {
+    background-image: url(../images/stop.png) !important;
+    background-repeat: no-repeat;
+}
+.icon-reset {
+    background-image: url(../images/reset.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon-grid {
+    background-image: url(../images/grid.png) !important;
+}
+
+.icon-add {
+    background-image: url(../images/add.png) !important;
+}
+.icon-edit {
+    background-image: url(../images/edit.png) !important;
+}
+.icon-search {
+    background-image: url(../images/search.png) !important; 
+}
+.icon-select {
+    background-image: url(../images/tick.png) !important; 
+}
+.icon-delete {
+    background-image: url(../images/delete.png) !important;
+}
+.icon-print {
+    background-image: url(../images/print.png) !important;
+}
+.icon-error {
+    background-image: url(../images/print.png) !important;
+}
+.icon-approve {
+    background-image: url(../images/print.png) !important;
+}
+.icon-setting {
+    background-image: url(../images/setting.jpg) !important;
+}
+.icon-group {
+    background-image: url(../images/clients.jpg) !important;    
+}
+.icon-contacts {
+    background-image: url(../images/contacts.jpg) !important;    
+}
+.icon-sms {
+    background-image: url(../images/sms.jpg) !important;    
+}
+.icon-statement {
+    background-image: url(../images/report.jpg) !important;    
+}
+.icon-profile {
+    background-image: url(../images/profile.png) !important;
+}
+.icon-changepass {
+    background-image: url(../images/passwordchange.jpg) !important;
+}
+.icon-logout {
+    background-image: url(../images/logout.png) !important;
+}
+.icon-organization {
+    background-image: url(../images/organization.jpg) !important;
+}
+.icon-segment {
+    background-image: url(../images/segment.jpg) !important;
+}
+.icon-account-group {
+    background-image: url(../images/account-group.png) !important;
+}
+.icon-account-structure {
+    background-image: url(../images/account-structure.png) !important;
+}
+.icon-fy {
+    background-image: url(../images/fy.jpg) !important;
+}
+.icon-source-code {
+    background-image: url(../images/source-code.jpg) !important;
+}
+.icon-employee {
+    background-image: url(../images/employee.jpg) !important;
+}
+.icon-executive-comittee {
+    background-image: url(../images/executive-comittee.jpg) !important;
+}
+.icon-commission {
+    background-image: url(../images/commission.jpg) !important;
+}
+.icon-share {
+    background-image: url(../images/share.jpg) !important;
+}
+.icon-account-detail {
+    background-image: url(../images/account-detail.png) !important;
+}
+.icon-cheque {
+    background-image: url(../images/chequeprint.png) !important;
+}
+.icon-invgroup {
+    background-image: url(../images/account-group.png) !important;
+}
+.icon-journal {
+    background-image: url(../images/journal.jpg) !important;
+}
+.icon-receipt {
+    background-image: url(../images/receipt.png) !important;
+}
+.icon-payment {
+    background-image: url(../images/payment.jpg) !important;
+}
+.icon-interest {
+    background-image: url(../images/interest.jpg) !important;
+}
+.icon-purchase{
+    background-image: url(../images/purchase.jpg) !important;
+}
+.icon-sales{
+    background-image: url(../images/sale.png) !important;
+}
+.icon-production{
+    background-image: url(../images/production.jpg) !important;    
+}
+.icon-trial{
+    background-image: url(../images/trial_balance.jpg) !important;    
+}
+.icon-ledger{
+    background-image: url(../images/ledger.jpg) !important;    
+}
+.icon-balancesheet{
+    background-image: url(../images/balancesheet.jpg) !important;    
+}
+.icon-profitandloss{
+    background-image: url(../images/profitandloss.jpg) !important;    
+}
+.icon-stocksummary{
+    background-image: url(../images/stocksummary.jpg) !important;    
+}
+.icon-stockledger{
+    background-image: url(../images/stockreport.jpg) !important;    
+}
+.icon-user1{
+    background-image: url(../images/user1.jpg) !important;    
+}
+.icon-menu{
+    background-image: url(../images/menumanager.jpg) !important;        
+}
+.icon-change-password{
+    background-image: url(../images/changepassword.jpg) !important;        
+}
+.icon-close-tran{
+    background-image: url(../images/closetransaction.jpg) !important;        
+}
+.icon-unit{
+    background-image: url(../images/unit.png) !important;        
+}
+.icon-email{
+    background-image: url(../images/email.jpg) !important;        
+}
+.icon-inventory-group{
+    background-image: url(../images/invgroup.jpg) !important;        
+}
+.icon-inventory-item{
+    background-image: url(../images/invitem.jpeg) !important;        
+}
+.icon-profile {
+    background-image: url(../images/profile.png) !important;
+}
+.icon-changepass {
+    background-image: url(../images/passwordchange.jpg) !important;
+}
+.icon-logout {
+    background-image: url(../images/logout.png) !important;
+}
+
+.formColor{
+   /* background-color:blue;*/
+}
+.text-user {
+    text:'Add';
+}
+.headBackground{
+    background-color: blue; 
+}
+.text-user-add {
+    text-align: left;
+    text:'Add';
+}
+
+.text-save {
+    text:'Save';
+}
+.text-close {
+    text:'Close';
+}
+.text-reset {
+    text:'Reset';
+}
+
+.text-grid {
+    font-size:20;
+}
+
+.text-add {
+    text:'Add';
+}
+.text-search {
+    text:'Search';
+}
+.text-delete {
+    text:'Delete';
+}
+.text-print {
+    text:'Print';
+},
+
+/* field related css --------------------------------------- */
+.required-field-label span.x-form-item-label-inner {
+    color: red;
+}
+.formColor{
+    /*background-color: #C5C1C1;*/
+}
+.nepaliNumber input, select label area {
+    font-family: "Kalimati" ;
+    font-size: 12;
+}
+.nepaliText input, select label {
+    font-family: "Kalimati" ;
+    font-size: 12;
+}   
+.englishFont input,select{
+    font-family:"Kalimati"!important;
+}
+input, select label area {
+    font-family: "Kalimati" ;
+    font-size: 12;
+}
+.voucherTitle:{
+    font-size: 20;
+}
+.x-grid-cell-inner{
+    font-family: 'Kalimati';
+    font-size:12;
+    height: 25px;*/
+    padding-top: 3px; 
+    /*color:blue; */
+}
+
+
+.x-column-header {
+    text-align: 'center';
+    color: blue;
+    vertical-align: 'center';
+    font: 13.5px/15px 'Kalimati', 'Kalimati';
+    /*font-weight: !important;*/
+    font-weight: bold;
+    padding-top: 2px !important;
+   /* background-color: #3B72A0 !important; */
+}
+/*.x-column-header {
+    color: black;
+    font-weight: bolder;
+    font: 13.5px/20px 'Kalimati', 'Kalimati';
+    background-color: #3B72A0 !important;
+}*/
+.x-column-header.x-column-header-focus {
+    color: red; 
+}
+.x-form-item-label-default.x-form-item-label-top > .x-form-item-label-inner{
+    padding-top: 6px;
+    padding-bottom: 0px !important;
+    border-left: 1px solid #C5C1C1;
+    border-right: 1px solid #C5C1C1;
+    text-align: center;
+    border-top: 1px solid #C5C1C1;
+    font-size: 12px;
+    color:blue;
+}
+.x-form-item-label-default .x-form-item-label-top
+{
+    background:#D4E8DE; 
+}
+.textfield-header{
+    padding-bottom: 0px !important;
+    border-left: 1px solid #C5C1C1;
+    border-right: 1px solid #C5C1C1;
+    border-top: 1px solid #C5C1C1; 
+    border-spacing: 0px;
+
+    text-align: center;    
+    font-size: 15px;
+    font-weight: bold;
+    color:#fff;
+    background-color: blue;
+}
+.textfield-head{
+    padding-bottom: 0px !important;
+    border-left: 0.5px solid #C5C1C1;
+    border-right: 0.5px solid #C5C1C1;
+    border-top: 1px solid #C5C1C1; 
+    border-spacing: 0px;
+
+    text-align: center;    
+    font-size: 15px;
+    font-weight: bold;
+    background: #F5F5F5;
+}
+/*Write your custom css here*/
+/*!-------------Custom Fonts Starts Here-------------!*/
+@font-face {
+    font-family: 'Kalimati';
+    src: url('fonts/Kalimati.ttf');
+}
+
+/*@font-face {
+    font-family: 'Preeti';
+    src: url('fonts/Preeti.ttf');
+}*/
+
+.english-field {
+    font-family: 'FontAwesome';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.nepali-date-display input,
+    select .x-toolbar-text-default {
+    font-family: "Kalimati" !important;
+}
+
+.english-date-display table input select {
+    font-family: "Kalimati" !important;
+}
+
+.english-email-display .x-form-text-default {
+    font-family: "Kalimati" !important;
+}
+
+.grid-date .x-grid-cell-inner {
+    font-family: "Kalimati" !important;
+}
+
+#pc-inputEl {
+    font-family: "Preeti";
+    font-size: 20px;
+}
+
+.property-detail-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #084071;
+    text-decoration: underline;
+}
+
+.x-dd-drag-ghost {
+    font: normal 12px 'Kalimati';
+}
+
+.x-body {
+    font-family: 14px/19px 'Kalimati';
+}
+
+.x-mask-msg-inner {
+    font: 300 14px 'Kalimati';
+}
+
+.x-progress-default .x-progress-text {
+    font-size: 14px;
+    font-family: 'Kalimati';
+}
+
+.x-toolbar-text-default {
+    padding: 0 4px;
+    color: #4b4c4c;
+    font: 300 14px/16px 'Kalimati';
+}
+
+.x-toolbar-text-footer {
+    color: #4b4c4c;
+    font: 300 14px/16px 'Kalimati';
+}
+
+.x-panel-body-default {
+    font-size: 14px;
+    font-family: 'Kalimati';
+    z-index: 0;
+}
+
+.x-window-body-default {
+    border-color: #5fa2dd;
+    font-size: 18px;
+    font-family: 'Kalimati';
+}
+
+.x-form-item-label-default {
+    font: 400 14px/19px 'Kalimati', 'Kalimati';
+    /*padding-top: 7px;*/
+}
+
+.x-fieldset-header-default > .x-fieldset-header-text {
+    font: 400 16px/20px 'Kalimati';
+    color: #4E4E4E;
+}
+
+.x-form-display-field-default {
+/*    font: 300 14px/17px 'Kalimati';*/
+}
+
+.english-dateAD-display .x-form-display-field-default {
+    font: 300 14px/17px 'Kalimati';
+}
+/*fontsie of gride header*/
+
+
+.x-window-header-title-default {
+    font-family: 'Kalimati', 'Kalimati';
+    font-weight: bolder;
+    color: red;
+}
+
+.x-accordion-hd .x-panel-header-title {
+    font-family: 'Kalimati',Kalimati;
+}
+
+.x-tab-inner-default {
+    font: 400 14px/20px 'Kalimati',Kalimati;
+}
+
+.x-menu-item-text-default {
+    font-family: Kalimati;
+    font-weight: bolder;
+    font: 400 14px/20px 'Kalimati',Kalimati;
+}
+
+/*!---------------Custom Fonts Ends Here-----------------!*/
+
+
+/*!--------------Custom Color Starts Here-----------------!*/
+.x-panel-header-default-framed-collapsed-top {
+    /*background: #205082;*/
+}
+
+.x-mask-msg {
+    background: none !important;
+}
+/*div#panel-1010-innerCt {
+        background: #205082 none repeat scroll 0% 0%;
+    }*/
+#menu-1009_header {
+        background: #4A6D8C;
+        box-shadow: 1px 1px 6px gray;
+        -moz-box-shadow: 1px 1px 6px gray;
+        -webkit-box-shadow: 1px 1px 6px gray;
+        height: 50px;
+    }
+.x-form-required-field {
+        background-color: #ffd8b1 !important;
+        color:red;
+    }
+#comboTreePicker-trigger-picker {
+    color: #fff;
+}
+
+.grayColor .x-form-text-default {
+    background: #DEDEDE !important;
+}
+
+.mytitle {
+    font-size: 20px;
+}
+
+.date_ad {
+    color: white;
+    font-size: 14px;
+    font-family: "Kalimati" !important;
+}
+
+.required-field-label span.x-form-item-label-inner {
+    white-space: nowrap;
+    background-color: #ffd8b1 !important;
+}
+
+.email-textfield span.x-form-item-text {
+    color: red;
+    font-size: 14px;
+    font-family: "Kalimati" !important;
+}
+
+.erp-anchor .fa-anchor:before {
+    color: blue;
+}
+
+.erp-task {
+    background: transparent !important;
+    border: none;
+    color: blue;
+}
+
+.erp-task:hover {
+    background: #b4d4f1;
+}
+
+div#panel-1018-innerCt {
+    background: #205082;
+}
+
+.x-panel-header-default {
+    background-color: #5fa2dd;
+    z-index: 0;
+}
+
+.x-panel-default-framed {
+ /*   border-color: #E6E6E6; */
+}
+
+.x-window-header-default .x-tool-img {
+    background-color: #224369;
+    color:red;
+}
+
+.x-column-header.x-column-header-focus {
+}
+
+.TaxContainerBox .x-container {
+    margin-top: 0px;
+    background-color: blue;
+}
+
+.header {
+   /* background-color: #224369; */
+    box-shadow: 1px 1px 6px gray;
+    -moz-box-shadow: 1px 1px 6px gray;
+    -webkit-box-shadow: 1px 1px 6px gray;
+}
+/*!---------------Custom Color Ends Here------------------!*/
+
+/*----------------Start Custom Tab------------------------*/
+.x-tab-default-top {
+    background-color: #6B97BB; 
+    border: none;
+}
+
+.x-tab-focus.x-tab-default {
+    outline: none;
+}
+
+.x-tab-over.x-tab-default {
+    background-color: #5aa1dd;
+}
+
+.x-tab-focus.x-tab-over.x-tab-default {
+    background-color: #368fdd;
+}
+
+.x-tab.x-tab-active.x-tab-default {
+    background-color: #368fdd;
+    height:35px;
+}
+
+.x-tab.x-tab-active.x-tab-default .x-tab-inner-default {
+    color: #000;
+}
+
+.x-tab-focus.x-tab-active.x-tab-default {
+    background-color: black;
+}
+
+.x-tab-bar-plain .x-tab-focus.x-tab-active.x-tab-default .x-tab-inner-default {
+    color: #f6f6f6;
+}
+
+.x-tab-bar-default-top > .x-tab-bar-body-default {
+    background-color: #787d82;
+    padding: 2px 4px 0px 8px;
+    height: 30px;
+}
+
+.x-tab-over.x-tab-default {
+    border-color: #fff;
+}
+.x-tab.x-tab-disabled.x-tab-default .x-tab-inner-default{
+    opacity: 0.9;
+}
+/*----------------End  Custom Tab------------------------*/
+
+
+/*!----------------Start Button Custom Color------------------------!*/
+.btn-search {
+    background-color: #68985E !important;
+    /*border-radius: 12px !important; */
+    border: none !important;
+    
+}
+.btn-select{
+    background-color: #68985E !important;
+   /* padding: 2px 7px 2px 7px; */
+    /*border-radius: 12px !important;
+        border: none !important;*/
+    
+}
+
+}
+    .btn-search:hover {
+        background-color: #508046 !important;
+    }
+
+.btn-reset {
+    color: black !important;
+    background-color: #777676 !important;
+    /*border-radius: 12px !important;*/
+    border: none !important;
+    
+}
+
+    .btn-reset:hover {
+        background-color: #5A5959 !important;
+    }
+
+.btn-create {
+    background-color: #5A8E50 !important;
+    /*border-radius: 12px !important;
+        border: none !important;*/
+    
+}
+
+    .btn-create:hover {
+        background-color: #4E7346 !important;
+    }
+.btn-refresh{
+        padding: 2px 7px 2px 7px;
+    background-color: #5fa2dd;
+    border-color: #5897ce;
+    
+}
+.btn-reload {
+    background-color: #D69D64 !important;
+    /*border-radius: 12px !important;
+        border: none !important;*/
+    }
+
+.btn-reload:hover {
+    background-color: #CE853C !important;
+}
+
+.btn-save {
+    background-color: #5E9652 !important;
+
+    /*border-radius: 12px !important;
+        border: none !important;*/
+    /*margin-left: -15px !important;*/
+}
+
+    .btn-save:hover {
+        background-color: #6aa35e !important;
+    }
+
+.btn-cancel {
+    background-color: #8E8A8A !important;
+    /*border-radius: 12px !important;
+        border: none !important;*/
+}
+
+    .btn-cancel:hover {
+        background-color: #656565 !important;
+        font-size: 20px !important;
+    }
+
+.btn-date {
+    background-color: #919191 !important;
+    border: none;
+    /*height: 32px; */
+}
+
+    .btn-date:hover {
+        background: #919191;
+        cursor: default;
+    }
+
+.btn-print {
+    background: #668AC1;
+    
+}
+
+    .btn-print:hover {
+        background: #5C7AA9;
+    }
+
+.btn-export {
+    background: #78AEB7 !important;
+    
+}
+
+    .btn-export:hover {
+        background: #60A59B !important;
+    }
+.x-btn-default-small {
+       /* font: 300 14px/23px 'Kalimati';*/
+      /* background-color: #5fa2dd;
+       border-color: #5897ce;*/
+     /*  height: 24px !important; */
+    /*margin-top:4px !important;*/
+    }
+.x-btn-inner-default-small {
+    /*font: 400 14px/16px 'Kalimati', 'Kalimati';*/
+   /* color: white;*/
+   /* padding: 3px 5px;*/
+}
+
+.x-btn-inner-default-large {
+    font: 400 16px/20px 'Kalimati';
+}
+
+.erp-btn-inner-small .x-btn-inner-default-small {
+    background: none;
+    border-style: none;
+    color: blue;
+    text-decoration: underline;
+}
+.bottom-toolbar{
+    background-color: #224369,
+}
+.x-btn-inner-plain-toolbar-small {
+    font: 400 12px/16px 'Kalimati',Kalimati;
+}
+
+.x-btn-inner-plain-toolbar-medium {
+    font: 400 14px/18px 'Kalimati',Kalimati;
+}
+
+.x-btn-inner-plain-toolbar-large {
+    font: 400 16px/20px 'Kalimati',Kalimati;
+}
+
+.x-panel-body-light, .x-panel-body-light-framed, .x-panel-header-title-navigation, .x-panel-body-navigation {
+    font-family: 'Kalimati',Kalimati;
+}
+
+.x-btn-inner-default-toolbar-medium {
+    font: 400 14px/18px 'Kalimati';
+}
+
+.x-btn-inner-default-toolbar-large {
+    font: 400 16px/20px 'Kalimati';
+}
+
+.x-panel-header-title-default {
+    font-family: Kalimati;
+}
+
+.x-panel-header-title-default-framed {
+    font-family: 'Kalimati';
+}
+
+.x-btn-group-header-title-default {
+    font: 300 14px 'Kalimati';
+}
+
+.x-btn-group-header-title-default-framed {
+    font: 300 14px 'Kalimati';
+}
+
+.x-btn-inner-default-small {
+    font: 400 14px/16px 'Kalimati', 'Kalimati';
+    color: white;
+   /* padding: 3px 5px;*/
+}
+
+.x-btn-inner-default-medium {
+    font: 400 14px/18px 'Kalimati';
+}
+
+.x-btn-inner-default-large {
+    font: 400 16px/20px 'Kalimati';
+}
+
+.x-btn-inner-default-toolbar-small {
+    font: 14px/18px 'Kalimati', 'Kalimati';
+    color: #fff;
+    padding: 2px 5px;
+}
+
+.x-btn-text.x-btn-icon-left > .x-btn-icon-el-default-toolbar-small {
+    color: #fff;
+}
+
+.x-field {
+    /*height: 22px !important;*/
+   /* margin: 3px !important; */
+    /*margin-bottom:3px !important;*/
+}
+
+.tax-x-field .x-field {
+/*    margin-top: 0px !important;*/
+      
+}
+
+.x-btn-button-default-small {
+    min-height: 11px;
+}
+/*!----------------End Button Custom Color------------------------!*/
+
+
+/*!---------------- Custom Margin,Height,Padding etc Starts Here-----------------!*/
+#panel-1010 {
+    left: 1px !important;
+}
+
+span.x-form-item-label-inner.x-form-item-label-inner-default {
+    width: 102px;
+}
+
+.x-window-text {
+    /*top: 8px !important;*/
+    /*height: 35px;
+    line-height: 25px;
+    font-size: 18px;*/
+}
+
+.date-text {
+    right: auto;
+    top: 0px;
+    margin: 0px;
+    margin-top: 2px;
+    left: 255px;
+    /*height: 28px;*/
+    text-align: center;
+    background-color: lightsalmon;
+    font-size: 14px;
+    width: 30px;
+    color: #000;
+    padding-top: 3px;
+}
+.x-box-target {
+        height: 10px;
+    }
+.x-form-item-label {
+    overflow: hidden;
+}
+
+.x-column-header-text {
+    overflow: visible !important;
+}
+
+.x-panel-header-default-horizontal.x-header-noborder {
+    padding: 6px 16px;
+}
+
+.x-panel-header-default-horizontal.x-header-noborder .x-box-inner {
+    /*padding: 5px 16px !important;*/
+}
+
+.x-panel-header-title-default > .x-title-text-default {
+    text-transform: none;
+    padding: 1px;
+}
+
+.x-panel-header-default-vertical {
+  /*  background-color: #6786A9; 
+    margin-top: 5px !important; */
+}
+
+.x-panel-header-default-horizontal.x-header-noborder {
+    /* padding: 3px 16px; */
+}
+
+    .x-panel-header-default-horizontal.x-header-noborder .x-box-inner {
+     /*   padding: 5px 16px !important; */
+    }
+
+.x-panel-header-title-default > .x-title-text-default {
+    padding: 1px;
+}
+
+.x-panel-header-title-default-framed > .x-title-text-default-framed {
+    padding: 1px;
+}
+
+.x-panel-header-default-framed-top {
+    padding: 5px 14px;
+/*    background: #205082; */
+}
+
+.x-panel-header-default-framed {
+    border-color: #205082;
+   height:32px; /*customly added*/
+}
+
+.x-window-default {
+    border: 4px solid #125088;
+}
+
+.x-window-header-default {
+    border-color: #125088;
+}
+
+.x-window-header-title-default > .x-title-text-default {
+    padding: 1px 5px;
+}
+.x-window-header-default {
+        top: 0px !important;
+        padding: 10;
+    }
+.x-autocontainer-form-item,
+.x-anchor-form-item,
+.x-vbox-form-item,
+.x-table-form-item {
+    /*height:25px;
+    margin-bottom: 2px;
+    margin-top: 2px;*/
+}
+
+.x-form-trigger-wrap-default.x-form-trigger-wrap-focus {
+       border-color: #3892d4;
+          box-shadow: 0 0 2px 2px #e0e0e0;
+}
+
+.disabled-view .x-form-trigger-wrap-default {
+    /*border-style: none; */
+    border-color: none;
+}
+
+.x-form-text-default {
+    /*padding:2px;*/
+    font: 300 14px/23px 'Kalimati';
+    /*height:25px; */
+    /*min-height: 20px;*/
+}
+.x-column-header-over {
+        background-image: none;
+        background-color: #eaeff4;
+    }
+.ext-sprite-1204{
+    color:#fff;
+}
+.erp-fieldset-text .x-fieldset .x-fieldset-header {
+    padding: 0px !important;
+}
+
+.x-view-item-focused {
+    outline: 1px dashed #5fa2dd !important;
+}
+
+.x-mask.x-focus {
+    border-color: #5fa2dd;
+}
+
+.x-progress-default {
+    border-color: #5fa2dd;
+}
+
+.date_bs {
+    color: white;
+    font-size: 14px;
+}
+
+.erp-logo {
+    width: 44px;
+    height: 37px;
+    margin: 0px;
+    right: auto;
+    left: 0px;
+    top: 4px !important;
+}
+
+.customLoadMask {
+    background-image: url(images/circleLoading.GIF);
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+}
+
+.x-tab-default-top {
+    -webkit-border-radius: 0px 0px 0px 0px;
+    -moz-border-radius:  0px 0px 0px 0px;
+    -ms-border-radius:  0px 0px 0px 0px;
+    -o-border-radius:  0px 0px 0px 0px;
+    border-radius:  0px 0px 0px 0px;
+    padding: 3px 10px 5px 10px;
+}
+
+.x-table-layout {
+   /* width: 95%;*/
+}
+
+.erp-fieldset .x-fieldset .x-fieldset-body {
+   /* margin-top: -13px;*/
+}
+
+.x-window-header-default-top {
+    /*background:blue;
+    color:#fff;*/
+    padding:'4px 0px 2px 7px';
+}
+
+.x-panel-header-default-framed .x-tool-img {
+    background-color:red;
+}
+/*!-------------------Custom Margin,Height,Padding etc Ends---------------!*/
+
+/*----------------Start Custom Menu------------------------*/
+.menu-header-text .x-treelist-item-text {
+    color: #fff !important;
+}
+
+.x-treelist {
+/*    background-color: #36679A; */
+    font-family: Kalimati; 
+}
+
+.x-treelist-toolstrip {
+  /*  background-color: #205082; */
+    cursor: pointer;
+}
+
+    .x-treelist-toolstrip .x-treelist-item-tool:hover {
+        // color: rgb(148, 148, 142);
+        font-size: 25px;
+     /*   background: #032A52; */
+    }
+/*
+.x-treelist-item-selected > .x-treelist-row {
+    background-color: #5fa2dd;
+}
+
+    .x-treelist-item-selected > .x-treelist-row:hover {
+        background-color: #205082;
+    }
+
+.x-treelist-item-floated > .x-treelist-row:hover {
+    background-color: #b4d4f1;
+}
+
+    .x-treelist-item-floated > .x-treelist-row:hover > * > .x-treelist-item-text {
+        color: #404040;
+    }
+*/
+.x-treelist-item,
+.x-treelist-container,
+.x-treelist-root-container {
+    z-index: 1;
+}
+
+.x-treelist-item-expander {
+    color: #5fa2dd;
+}
+
+.x-treelist-item-floated > .x-treelist-row {
+    background-color: #648fb7;
+}
+
+    .x-treelist-item-floated > .x-treelist-row:hover {
+        background-color: #b4d4f1;
+    }
+
+&.x-treelist-highlight-path .x-treelist-item:hover > * > .x-treelist-item-icon {
+    color: #5fa2dd;
+}
+
+&.x-treelist-highlight-path .x-treelist-item:hover > * > .x-treelist-item-expander {
+    color: #5fa2dd;
+}
+
+.x-treelist-item-leaf {
+    border-bottom: 1px inset #3F6894;
+    border-width: thin;
+}
+
+.x-treelist-item,
+.x-treelist-container,
+.x-treelist-root-container {
+    z-index: 1;
+}
+
+.x-treelist-item-text {
+    //white-space: nowrap;
+}
+
+.x-treelist-item-tool {
+    width: 40px;
+}
+
+.x-treelist-item-text {
+    color: #fff;
+    margin-left: 28px;
+    /*margin-right: 18px; */
+    font-size: 16px;
+    line-height: 36px;
+}
+
+.x-treelist-row {
+    padding-right: 5px;
+}
+
+.x-treelist-floater {
+    max-height: 90%;
+    overflow: auto;
+    width: 360px !important;
+}
+
+.x-treelist-item-floated > .x-treelist-row:hover {
+    background-color: #b4d4f1;
+}
+
+.x-treelist-item-text:hover {
+    cursor: pointer;
+}
+
+.submenu-accordion .x-treelist-row .x-treelist-item-text {
+    color: green !important;
+}
+
+.x-treelist-row:hover {
+    background: #032A52;
+}
+
+    .x-treelist-row:hover > * > .x-treelist-item-text {
+        color: #fff;
+    }
+
+.fa-long-arrow-right:before {
+    content: "\f178";
+    color: #c6cfd8;
+    font-size: smaller;
+}
+.x-treelist-item-leaf{
+    background: #2b2e31;
+}
+/*----------------End Custom Menu------------------------*/
+
+/*----------------Start Custom Grid------------------------*/
+.x-grid-item {
+    color: #404040;
+    font: 400 14px/19px 'Kalimati';
+    background-color: #EFF7FF;
+    padding-top: 5px;
+    height:25px;
+}
+
+.x-grid-cell-inner-action-col:focus {
+    outline: 1px solid #5fa2dd;
+}
+
+.x-grid-cell-inner-checkcolumn:focus {
+    outline: 1px solid #5fa2dd;
+}
+
+.x-grid-item-alt {
+    background-color: #EFF7FF;
+    padding-top: 5px;
+}
+
+.x-grid-item-over {
+    color: #000 !important;
+    background-color: #D4ECFC;
+}
+
+.x-grid-item-focused {
+    outline: 0px none;
+    color: #000 !important;
+    background: #8ccaf7 none repeat scroll 0% 0% !important;
+}
+
+.x-grid-item-selected {
+    color: #404040 !important;
+    background-color: #B9CDE0;
+}
+
+.x-grid-cell:hover {
+    background: #C8EDFA !important;
+}
+
+.x-btn-inner-grid-cell-small {
+    font: 400 12px/16px 'Kalimati';
+}
+
+.x-grid-tree-node-leaf {
+    background: #fff;
+}
+
+.x-grid-row {
+    height: 22px;
+    color: #000;
+    padding-top: 5px;
+}
+
+.x-column-header-over {
+    background-color: #3B72A0;
+}
+
+
+.x-column-header-open {
+    background-color: #3B72A0;
+}
+
+/*----------------End Custom Grid------------------------*/
+
+/*----------------Start Icons------------------------*/
+.x-action-col-icon {
+    margin-right: 5px;
+}
+
+.erp-btn-tree-icon .btn-tree-icon-window:hover {
+    background: #CEE0D0;
+}
+
+.fa-tasks:before {
+    content: "\f0ae";
+    color: blue;
+}
+
+.fa-sitemap:before {
+    color: blue;
+}
+
+.fa-trash-o:before {
+    color: red;
+}
+
+.fa-edit:before,
+.fa-pencil-square-o:before {
+    color: black;
+}
+
+.fa-eye:before {
+    color: green;
+}
+
+.x-treelist-item-icon,
+.x-treelist-item-tool,
+.x-treelist-item-expander {
+    line-height: 42px;
+}
+
+.x-treelist-item-icon,
+.x-treelist-item-tool {
+    color: #fff;
+    font-size: 22px;
+}
+
+.btn-tree-icon-window {
+    background: none;
+    border: none;
+}
+
+.btn-tree-icon-window {
+    background: none;
+    border: none;
+    border-radius: 20px 20px 17px 17px;
+    color: green;
+}
+
+    .btn-tree-icon-window:hover {
+        background: #E2E8E7 !important;
+    }
+
+    .btn-tree-icon-window:hover {
+        background: none;
+    }
+
+.erp-btn-tree-icon .btn-tree-icon-window:hover {
+    background: #CEE0D0;
+}
+
+/*----------------End Icons------------------------*/
+
+.tax-fieldset .x-fieldset-body {
+}
+
+/* custom icon class */
+.fa-anchor {
+    color: blue;
+}
+/*Pop-up window text height*/
+.x-box-inner{
+ /*   height: 30px;*/
+}
+/*copy button*/
+.btn-copy {
+    padding: 0px !important;
+    background-color: #555765 !important;
+}
+/*copy button*/
+
+
+.tax-label {
+}
+
+.x-form-item-label-default.x-form-item-label-top > .x-form-item-label-inner {
+  /*  padding-top: 6px;
+    padding-bottom: 0px !important;
+    border-left: 1px solid #C5C1C1;
+    border-right: 1px solid #C5C1C1;
+    text-align: center;
+    border-top: 1px solid #C5C1C1;
+    font-size: 15px;
+    */
+}
+
+.x-form-item-label-default.x-form-item-label-top {
+    background: black; 
+}
+
+.fa-upload {
+    color: blue;
+}
+
+.file-upload-btn .x-btn-default-small {
+    background: none !important;
+    border: none;
+}
+
+.file-cancel-btn .fa-times-circle:before {
+    color: red;
+}
+
+.file-cancel-btn .x-btn-default-small {
+    background: none !important;
+    border: none;
+}
+
+.tax-required-field-label span.x-form-item-label-inner {
+   /* background: #F3A2B0; */
+}
+
+.tax-trigger .x-form-trigger-default:before {
+    content: "\f0e8";
+    color: #429048;
+}
+
+.tax-grid-trigger .x-form-trigger-default:before {
+    content: "\f0ae";
+    color: #0000FF;
+}
+
+.x-webkit .x-form-text {
+  /*  height: 24px;*/
+}
+/*.x-tool-over .x-tool-img {
+    background: #CE1818;
+}*/
+.x-tool-close {
+    font: 0px fontawesome;
+    background: none;
+    padding:'2px 5px 2px -5px';
+    background-image: url(images/tools/close.png);
+    
+
+}
+
+
+
+.english-grid-display .x-cell {
+    font-family: Kalimati;
+}
+
+.erp-label-color .x-form-item-label-default {
+    background: red;
+    border: 1px solid #B3BCC3;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.erp-label-color-required .x-form-item-label-default {
+    background: #F3A2B0;
+    border: 1px solid #B3BCC3;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.status-label-top .x-form-cb-wrap-default {
+    border: 1px solid #d0d0d0;
+    padding-left: 56px;
+}
+/*mystyle*/
+.x-form-trigger-wrap {
+    height: 24px;
+}
+
+.x-column-header-inner {
+    text-align: center;
+}
+/*Minimize the size of pagination*/
+     .erp-pagination, .x-toolbar-default-docked-bottom {
+    padding: 0px 0px 0px 0px !important;
+    background-color: #224369;
+}
+/*Scroll background header color*/
+.x-grid-header-ct {
+    background-color: #3B72A0;
+}
+/* Combo height text box*/
+.x-form-spinner-default{
+}
+/*Dropdown arrow font awesome*/
+.x-form-trigger-default{
+    font: 16px/24px FontAwesome;
+}
+
+/*this class is use for custom class for date label color and border*/
+ .erp-date-label{
+   
+    max-height: 25px;
+    background-color: rgb(87, 149, 203);
+    color: #fff;
+    padding: 5px 4px 11px 3px;
+    font-size: 13px;
+    line-height: 18px;
+    text-indent: 3px;
+    font-family: 'Kalimati';
+}
+ /*Minimize the space bwtween fieldset and form*/  
+    .erp-fieldset-form .x-fieldset-body{
+        top: -11px;
+    }
+    .erp-fieldset-form2 .x-fieldset-body{
+        top: -13px;
+    }
+      .erp-fieldset-form3 .x-fieldset-body{
+        top: -6px;
+    }
+         .erp-fieldset-box .x-fieldset-body{
+        padding: 7px 15px 8px 15px;
+    }
