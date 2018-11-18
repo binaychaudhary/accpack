@@ -1,0 +1,4 @@
+Ext.define('ExtMVC.model.Savingdetail', {
+    extend: 'Ext.data.Model',
+    fields: ['id','accountNo','shareAcNo','accountTypeId','acCategoryId','start_date_bs','start_date_ad','smsAlert','ebanking','minBalance',  'collector_id','approver_id','mature_type_id', 'mature_date_bs','mature_date_ad','status','accountDesc','periodDesc','acCategory','photo_url','signature1_url','signature2_url','grand_father','father_name','sex','date_of_birth','hw_id','hw_name','temp_state','temp_district','temp_vdc_mpc','temp_ward_no','perm_state','perm_district','perm_vdc_mpc','perm_ward_no','contact_no','email_address','gender','birth_date','marital_status','nom_name','nom_relation']
+});  
